@@ -1,0 +1,39 @@
+{
+  "blogs": [
+    {
+      "id":1,
+      "title": "Blog 1",
+      "author": "Author 1",
+      "url": "http://URL1",
+      "like":0
+    },
+    {
+      "id":2,
+      "title": "Blog 2",
+      "author": "Author 2",
+      "url": "http://URL2",
+      "like":0
+    },
+    {
+      "id":3,
+      "title": "Blog 3",
+      "author": "Author 3",
+      "url": "http://URL3",
+      "like":0
+    },
+    {
+      "id":4,
+      "title": "Blog 4",
+      "author": "Author 4",
+      "url": "http://URL4",
+      "like":0
+    },
+    {
+      "id":5,
+      "title": "Blog 5",
+      "author": "Author 5",
+      "url": "http://URL5",
+      "like":0
+    }
+  ]
+}
