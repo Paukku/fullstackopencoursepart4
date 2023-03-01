@@ -1,17 +1,17 @@
 const Blogs = ({blogs, handleLikes}) => {
   return (
-    <ul>
+    <div>
         <h1>Blogs</h1>
         {blogs.map(bl =>
-        <div key={bl.title}>
+        <div key={bl.id}>
             <h2> {bl.title}</h2>
             <p>Author: {bl.author} <br />
-            Url: {bl.url} <br />
+            Url: <a href={bl.url} >Link</a> <br />
             Likes: {bl.like} <br />
-            <button type="submit" value={bl.title} onClick={handleLikes}> Like!</button>
+            <button type="submit"  onClick={() => handleLikes(bl.id)}> Like!</button>
             </p>
         </div>)}
-    </ul>
+    </div>
 )}
 
 export default Blogs
